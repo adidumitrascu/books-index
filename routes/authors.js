@@ -4,7 +4,7 @@ const router = express.Router()
 //All author route
 
 router.get('/', (req, res) => {
-    res.render('authors /index')
+    res.render('authors/index')
 })
 
 //New author route
@@ -15,7 +15,7 @@ router.get('/new', (req, res) => {
 
 //Create author route
 
-route.post('/', (req, res) => {
+router.post('/', (req, res) => {
     res.send('Create')
 })
 
